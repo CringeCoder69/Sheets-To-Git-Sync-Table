@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "spreadsheetName": "Sheets-To-Git-Sync-Table"
+  },
+  "sheets": {
+    "Лист1": [
+      {
+        "id": "first",
+        "name": 1,
+        "qty": 2,
+        "total": {
+          "value": 2,
+          "formula": "=B2*C2"
+        }
+      },
+      {
+        "id": "second",
+        "name": 3,
+        "qty": 4,
+        "total": {
+          "value": 12,
+          "formula": "=B3*C3"
+        }
+      },
+      {
+        "id": "third",
+        "name": 5,
+        "qty": 6,
+        "total": {
+          "value": 30,
+          "formula": "=B4*C4"
+        }
+      }
+    ],
+    "globals": {
+      "apiBaseUrl": "https://api.x",
+      "retries": 3,
+      "enabled": true
+    }
+  }
+}
