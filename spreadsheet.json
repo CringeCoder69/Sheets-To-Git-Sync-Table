@@ -28,8 +28,8 @@
         "name": 5,
         "qty": 6,
         "total": {
-          "value": 30,
-          "formula": "=B4*C4"
+          "value": 60,
+          "formula": "=B4*C4*2"
         }
       }
     ],
