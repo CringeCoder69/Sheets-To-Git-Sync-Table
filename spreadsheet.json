@@ -19,8 +19,8 @@
         "name": 3,
         "qty": 4,
         "total": {
-          "value": 12,
-          "formula": "=B3*C3"
+          "value": 120,
+          "formula": "=B3*C3*10"
         }
       },
       {
